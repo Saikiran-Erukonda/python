@@ -13,11 +13,15 @@ print("o_subtraction =",i_a - i_b)
 print("o_multiplication =", i_a * i_b)
 print("o_division = ",i_a/i_b)
 
-"""
-2. Write a method for increment and decrement operators(++, --)
+""" 2. Write a method for increment and decrement operators(++, --) """
+# python does not have increment and decrement operator directly. Use for loop for increment and decrement operations
+i = 0
+k = 20
+for i in range(0,5):
+  print(i)  # prints value of i upto 4
+for k in range(20,15,-1):
+  print(k)  # prints value of k upto 16
 
-"""
-# python does not have increment and decrement operator 
 
 """ 3. Write a program to find the two numbers equal or not."""
 
