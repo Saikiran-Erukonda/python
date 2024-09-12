@@ -14,16 +14,18 @@ print("o_multiplication =", i_a * i_b)
 print("o_division = ",i_a/i_b)
 
 """
-2. Write a method for increment and decrement operators(++, --)
+2. Write a method for increment and decrement operators(++, --)
+
 """
 # python does not have increment and decrement operator 
 
-""" 3. Write a program to find the two numbers equal or not."""
+""" 3. Write a program to find the two numbers equal or not."""
+
 
 value = 100
 number = 100
-print("value = ",value,"\nnumber = ",number)
-print("\nIs the value equal to number :",value == number)
+print("\nvalue = ",value,"\nnumber = ",number)
+print("Is the value equal to number :",value == number)
 
 
 """ 4. Program for relational operators (<,<==, >, >==)"""
