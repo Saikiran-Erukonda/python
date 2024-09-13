@@ -1,4 +1,5 @@
-#1. Write a program to print “Bright IT Career” ten times using for loop
+#1. Write a program to print “Bright IT Career” ten times using for loop
+
 
 i=0
 for i in range(10):
@@ -55,7 +56,8 @@ while N in range(20):
     # do-while loop doesn't exists in python
 
 
-"""8. Write a program to find Armstrong number or not"""
+"""8. Write a program to find Armstrong number or not
+"""
 
 """Armstrong number : a number that is equal to the sum of power_base_n of its own digits..
    for example : 153, 1^3 + 5^3 + 3^3 = 153
@@ -74,7 +76,8 @@ else:
 
 """9. Write a program to find the prime or not."""
 print("\n----------- Prime number or Not -----------------")
-i_num = int(input('enter a number: '))
+i_num = int(
+input('enter a number: '))
 value = 0
 f = []
 for value in range(2,i_num):
