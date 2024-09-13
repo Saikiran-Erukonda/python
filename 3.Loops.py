@@ -105,7 +105,22 @@ else:
     print("the given string '",word,"'is not palindrome")
     
 
-    
+"""11. Program to check whether a number is EVEN or ODD using switch"""
+
+print("\n----------- GIVEN NUMBER IS EVEN or ODD using match-case -----------------")
+i_num = int(input("Enter the number to check: \n"))
+C = int(input("Enter '1' to check even \nEnter '2' to check odd : "))
+match C:
+    case 1:
+              if (i_num % 2 == 0):
+                  print(i_num," is even")
+              else:
+                  print(i_num," is not even")
+    case 2:
+              if (i_num % 2 != 0):
+                  print(in_num," is odd")
+              else:
+                  print(in_num," is not odd")
 
 
 
