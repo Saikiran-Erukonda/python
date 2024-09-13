@@ -105,6 +105,7 @@ else:
     print("the given string '",word,"'is not palindrome")
     
 
+
 """11. Program to check whether a number is EVEN or ODD using switch"""
 
 print("\n----------- GIVEN NUMBER IS EVEN or ODD using match-case -----------------")
@@ -122,8 +123,17 @@ match C:
               else:
                   print(in_num," is not odd")
 
-
-
-
-
+"""12. Print gender (Male/Female) program according to given M/F using switch"""
+print("\n----------- Print gender (Male/Female) program according to given M/F using switch -----------------")
+C = input("Collecting gender information\nEnter 'M' for Male \nEnter 'F' for Female : ")
+cin = ''
+if C == 'M':
+    cin = 1
+elif C == 'F':
+    cin = 2
+match cin:
+    case 1:
+        print("The gender is \tMale")
+    case 2:
+        print("The gender is \tFemale")
 
